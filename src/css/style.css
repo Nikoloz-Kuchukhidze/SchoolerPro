@@ -6,6 +6,42 @@
 
 /* ── HEADER ── */
 
+a {
+  text-decoration: none;
+}
+
+header {
+  nav,
+  .logo,
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+nav {
+  font-size: 18px;
+  margin-left: 395px;
+  a {
+    color: #2e7af4;
+  }
+}
+
+.logo {
+  margin: 21px 0px;
+  margin-left: 275px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2e7af4;
+}
+
+.register {
+  margin-left: 59px;
+  background-color: #2e7af4;
+  padding: 12px 24px;
+  color: white;
+}
+
 /* ── HERO ── */
 
 /* ── About Us ── */
