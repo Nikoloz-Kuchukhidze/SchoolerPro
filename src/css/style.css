@@ -59,6 +59,7 @@ nav {
 }
 
 .maintext {
+  margin: 10px 0px;
   position: absolute;
   top: 280px;
   left: 280px;
@@ -84,6 +85,7 @@ nav {
   }
 
   button {
+    margin-top: 55px;
     font-size: 18px;
     padding: 14px 40px;
     border: none;
