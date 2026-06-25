@@ -11,6 +11,13 @@ a {
 }
 
 header {
+  text-align: center;
+  margin: 21px 0px;
+  img {
+    width: 36px;
+    margin-right: 6px;
+  }
+  img,
   nav,
   .logo,
   li {
@@ -21,6 +28,7 @@ header {
 
 nav {
   font-size: 18px;
+  font-family: "Lato", sans-serif;
   margin-left: 395px;
   a {
     color: #2e7af4;
@@ -28,15 +36,17 @@ nav {
 }
 
 .logo {
-  margin: 21px 0px;
-  margin-left: 275px;
   font-size: 30px;
+  font-family: "Alien Block", sans-serif;
   font-weight: bold;
   color: #2e7af4;
 }
 
+.link {
+  margin: 0px 55px;
+}
+
 .register {
-  margin-left: 59px;
   background-color: #2e7af4;
   padding: 12px 24px;
   color: white;
