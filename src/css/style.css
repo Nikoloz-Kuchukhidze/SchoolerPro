@@ -6,7 +6,92 @@
 
 /* ── HEADER ── */
 
+header {
+  text-align: center;
+  margin: 21px 0px;
+  img {
+    width: 36px;
+    margin-right: 6px;
+  }
+  img,
+  nav,
+  .logo,
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+nav {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  margin-left: 395px;
+  a {
+    color: #2e7af4;
+  }
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Alien Block", sans-serif;
+  font-weight: bold;
+  color: #2e7af4;
+  text-decoration: none;
+}
+
+.link {
+  margin: 0px 55px;
+}
+
+.register {
+  background-color: #2e7af4;
+  padding: 12px 24px;
+  color: white;
+}
+
 /* ── HERO ── */
+
+.hero {
+  margin: 19px 0px;
+}
+
+.maintext {
+  margin: 10px 0px;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+
+  .p1 {
+    font-size: 20px;
+    color: #2e7af4;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 90px;
+    max-width: 558px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+
+  .p2 {
+    font-size: 18px;
+    max-width: 580px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  button {
+    margin-top: 55px;
+    font-size: 18px;
+    padding: 14px 40px;
+    border: none;
+    background-color: #2e7af4;
+    color: white;
+    border-radius: 3px;
+    font-family: "Lato", sans-serif;
+  }
+}
 
 /* ── About Us ── */
 
