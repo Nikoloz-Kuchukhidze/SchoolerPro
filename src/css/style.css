@@ -9,6 +9,10 @@
 header {
   text-align: center;
   margin: 21px 0px;
+  a {
+    text-decoration: none;
+  }
+
   img {
     width: 36px;
     margin-right: 6px;
@@ -36,7 +40,6 @@ nav {
   font-family: "Alien Block", sans-serif;
   font-weight: bold;
   color: #2e7af4;
-  text-decoration: none;
 }
 
 .link {
