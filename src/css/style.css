@@ -54,10 +54,37 @@ nav {
 
 /* ── HERO ── */
 
+.hero {
+  margin: 19px 0px;
+}
+
 .maintext {
   position: absolute;
   top: 280px;
   left: 280px;
+
+  .p1 {
+    font-size: 20px;
+    color: #2e7af4;
+  }
+  h1 {
+    font-size: 90px;
+    max-width: 558px;
+  }
+
+  .p2 {
+    font-size: 18px;
+    max-width: 580px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 14px 40px;
+    border: none;
+    background-color: #2e7af4;
+    color: white;
+    border-radius: 3px;
+  }
 }
 
 /* ── About Us ── */
