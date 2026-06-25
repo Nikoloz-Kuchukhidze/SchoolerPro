@@ -66,15 +66,21 @@ nav {
   .p1 {
     font-size: 20px;
     color: #2e7af4;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   h1 {
     font-size: 90px;
     max-width: 558px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
   }
 
   .p2 {
     font-size: 18px;
     max-width: 580px;
+    font-family: "Open Sans", sans-serif;
   }
 
   button {
@@ -84,6 +90,7 @@ nav {
     background-color: #2e7af4;
     color: white;
     border-radius: 3px;
+    font-family: "Lato", sans-serif;
   }
 }
 
