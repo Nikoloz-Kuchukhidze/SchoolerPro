@@ -54,6 +54,12 @@ nav {
 
 /* ── HERO ── */
 
+.maintext {
+  position: absolute;
+  top: 280px;
+  left: 280px;
+}
+
 /* ── About Us ── */
 
 /* ── Our Team ── */
