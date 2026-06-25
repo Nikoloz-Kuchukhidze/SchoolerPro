@@ -6,10 +6,6 @@
 
 /* ── HEADER ── */
 
-a {
-  text-decoration: none;
-}
-
 header {
   text-align: center;
   margin: 21px 0px;
@@ -40,6 +36,7 @@ nav {
   font-family: "Alien Block", sans-serif;
   font-weight: bold;
   color: #2e7af4;
+  text-decoration: none;
 }
 
 .link {
