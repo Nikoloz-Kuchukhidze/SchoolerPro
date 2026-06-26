@@ -97,7 +97,56 @@ nav {
 }
 
 /* ── About Us ── */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.aboutus div {
+  display: flex;
+  flex-direction: column;
+  margin:205px 55px 251px 150px;
+}
+.aboutus {
+  display: flex;
+}
+.aboutus img {
+  max-width: 632px;
+  min-height: 745px;
+  margin:205px 150px 251px 0px;
+  border-radius: 30px;
+}
+.first { 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+color: #2E7AF4;
+margin-bottom: 10px;
+}
+.aboutus div h2 {
+ font-family: "Lato", sans-serif;
+font-weight: 800;
+font-size: 50px;
+line-height: 100%;
+margin-bottom: 38px;
+}
+.description {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+color: #00000080;
+margin-top: 20px;
+}
+button {
+background-color: #2E7AF4;
+color:white;
+ font-family: "Lato", sans-serif;
+font-weight: 700;
+font-size: 20px;
+width: 244px;
+height: 73px;
+border-radius: 4px;
+border: none;
+margin-top: 30px;
+}
 /* ── Our Team ── */
 
 /* ── Mission and Vision ── */
